@@ -1,0 +1,35 @@
+footer-icons a img{
+    width: 30px; 
+}
+ .footer .footer-link img{
+    width: 20px;
+}
+.footer hr{
+    width: 70%;
+    height:5px ;
+    border-radius: 2px;
+    border-color: #2bd6fa;
+    background: #2bd6fa;
+}
+.footer .footer-link a{
+    color: #000;
+}
+.footer .container-fluid{
+    background: #5f2c82;
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);
+    background: linear-gradient(to right, #49a09d, #5f2c82);
+}
+img{
+    width: 40px;
+}
+.min-vh-100 {
+    min-height: 100vh; /* Ensure the container takes full viewport height */
+  }
+  
+  .flex-fill {
+    flex: 1; /* Fills the remaining space */
+  }
+  
+  footer {
+    margin-top: auto; /* Ensure footer stays at the bottom */
+  }

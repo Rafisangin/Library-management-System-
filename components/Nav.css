@@ -1,0 +1,84 @@
+.img_nav {
+    width: 40px;
+}
+
+.navbar {
+    background: #5f2c82;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #49a09d, #5f2c82);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 20px;
+}
+.navbar  a{
+    color: white;
+}
+.navbar .collapse .navbar-nav .nav-link{
+    color: white;
+}
+ .intro .container .img_intro img{
+    width: 450px;
+}
+/* General Navbar Styles */
+.navbar {
+    background-color: #f8f9fa; /* Light background for the navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .navbar-brand img {
+    max-height: 40px; /* Adjust logo size */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333; /* Dark text for links */
+    font-weight: 500;
+    margin-right: 15px; /* Space between items */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Highlight color on hover */
+    text-decoration: none;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown-menu {
+    background-color: #fff; /* White background for dropdown */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 10px; /* Space between dropdown and link */
+    min-width: 200px; /* Ensure the dropdown has a fixed width */
+    z-index: 1050; /* Ensure it appears above other content */
+  }
+  
+  .dropdown-menu .dropdown-item {
+    color: #333; /* Text color */
+    padding: 10px 20px; /* Padding for items */
+    font-size: 14px; /* Font size */
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #f1f1f1; /* Light gray on hover */
+    color: #007bff; /* Highlight text color */
+    text-decoration: none;
+  }
+  
+  /* Show Dropdown */
+  .dropdown-menu.show {
+    display: block; /* Ensure it is displayed when `show` class is added */
+  }
+  
+  /* Mobile View Adjustments */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column; /* Stack items vertically */
+    }
+  
+    .dropdown-menu {
+      position: static; /* Ensure proper alignment in mobile view */
+      margin-top: 0;
+      box-shadow: none; /* Remove shadow in mobile view */
+    }
+  }
+  
